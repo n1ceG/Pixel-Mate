@@ -18,9 +18,10 @@ header{
     background-color: #BB0A21;
     height: 100px;
     width: 100%;
-    text-align: center;
-    line-height: 100px;
-    color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #252627;
 }
 
 header h1{
@@ -159,12 +160,6 @@ header h1{
 
 .article h2{
     font-size: 30px;
-}
-
-.encabezado{
-    color:#252627;
-    display:flex;
-    justify-content: space-between;
 }
 
 .producto{
