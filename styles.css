@@ -4,7 +4,7 @@
 }
 
 html, body{
-    height: 110%;
+    height: 100%;
 }
 
 body{
@@ -28,10 +28,11 @@ header h1{
     margin-left: 40px;
 }
 
-#container{
+#contenido{
     flex: 1 0 auto;
-    width: 1440px;
-    margin: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -50,12 +51,12 @@ header h1{
 }
 
 #content.content-trabajadores{
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
+    float: none;
 }
 
-#content.content-tienda{ /*Contenedor de las cards de home*/
+#content.content-tienda{
     flex-direction: row;
     width: 80%;
     float: none;
